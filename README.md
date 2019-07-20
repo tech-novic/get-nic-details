@@ -26,11 +26,11 @@ Output
 ["eth0", "wlo1"]
 
 ### To get all interface details
-From the interface list get details of all the interfaces
+From the interface list get details of all the interfaces::
    >>> interfaces = getnic.interfaces()
    >>> getnic.ipaddr(interfaces)
 
 ### To get selected interface details, example lo, eth0
-Pass interface names in a list
+Pass interface names in a list::
    >>> interface_list = ['lo','etho']
    >>> getnic.ipaddr(interface_list)
