@@ -6,25 +6,31 @@ Get Network Interface details such as list of interfaces, ipaddress, mac addrres
 Currently working for Linux. 
 
 ***********
-Getting Started
+Get Started
 ***********
+
 Pip install get_nic::
 
- >>> pip3 install get_nic
+   >>> pip3 install get_nic
 
-### import::
-from get_nic import getnic
 
-# To get list of intefaces::
- >>> getnic.interfaces()
+### import
+import module::
+   >>> from get_nic import getnic
 
-Output::
+### To get list of intefaces
+Get list of network interfaces::
+   >>> getnic.interfaces()
+
+Output
 ["eth0", "wlo1"]
 
-# To get all interface details::
-  >>> interfaces = getnic.interfaces()
-  >>> getnic.ipaddr(interfaces)
+### To get all interface details
+From the interface list get details of all the interfaces
+   >>> interfaces = getnic.interfaces()
+   >>> getnic.ipaddr(interfaces)
 
-# To get selected interface details, example lo, eth0::
- >>> interface_list = ['lo','etho']
- >>> getnic.ipaddr(interface_list)
+### To get selected interface details, example lo, eth0
+Pass interface names in a list
+   >>> interface_list = ['lo','etho']
+   >>> getnic.ipaddr(interface_list)
