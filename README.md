@@ -1,13 +1,11 @@
-#######
-get-nic
-#######
+# get-nic
+
 
 Get Network Interface details such as list of interfaces, ipaddress, mac addrress, status of nic, etc. 
 Currently working for Linux. 
 
-***********
-Get Started
-***********
+## Get Started
+
 
 Pip install get_nic::
 
