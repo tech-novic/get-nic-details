@@ -28,7 +28,7 @@ Output
 ["eth0", "wlo1"]
 
 ### To get all interface details
-From the interface list get details of all the interfaces::
+From the interface list get details of all the interfaces:
    ```
    interfaces = getnic.interfaces()
    getnic.ipaddr(interfaces)
