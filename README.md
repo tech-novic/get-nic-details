@@ -34,7 +34,7 @@ From the interface list get details of all the interfaces:
    getnic.ipaddr(interfaces)
    ```
 ### To get selected interface details, example lo, eth0
-Pass interface names in a list::
+Pass interface names in a list:
    ```
    interface_list = ['lo','etho']
    getnic.ipaddr(interface_list)
