@@ -20,7 +20,7 @@ import module:
 ```
 ### To get list of intefaces
 
-Get list of network interfaces:
+Get list of network interfaces::
 ```
   getnic.interfaces()
 ```
