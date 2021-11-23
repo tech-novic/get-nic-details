@@ -14,7 +14,7 @@ def interfaces():
             res = os.popen("ip link show")
             
         except OSError:
-            print ("Error execuring ip link show. Currently Linux is only supported")
+            print ("Error executing ip link show. Currently Linux is only supported")
 
         split = res.read().split()
 
